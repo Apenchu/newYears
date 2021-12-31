@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en" id="home">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <title>Home</title>
+        <style>
+            body {
+                @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600&display=swap');
+                font-family: 'Syne', sans-serif;
+            }
+
+            .loading {
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                z-index: 999 !important;
+            }
+            .loading img {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+
+            .jumbotron {
+                width: 100%;
+                height: 20em;
+            }
+            .jumbotron h1 {
+                margin-top: 2em;
+                font-weight: bold;
+                text-shadow: 1px 1px 0px rgba(0,0,0,0.5);
+            }
+            .jumbotron h5 {
+                margin-top: 2em;
+                font-weight: lighter;
+            }
+
+            .blog {
+                margin-top: 5em;
+            }
+            .blog .kategori {
+                margin-bottom: -10px;
+            }
+            .blog .kategori span {
+                font-weight: bold;
+            }
+            .blog .myCard{
+                margin-top: 2em;
+            }
+            .blog .myCard .alertHijau {
+                margin-top: 10px;
+                width: 100%;
+                background-color: rgb(152, 248, 152);
+                padding: 3px;
+                border-radius: 5px;
+                text-align: center;
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+            }
+            .cardBody {
+                margin-top: 10px;
+            }
+
+            .harapan {
+                margin-top: 4em;
+                width: 100%;
+                height: 20em;
+            }
+            .harapan h3 {
+                margin-top: 2em;
+            }
+            .harapan .tombol {
+                margin: auto;
+            }
+            .harapan .pergantianTahun {
+                padding: 10px;
+                background-color: rgb(255, 0, 0);
+                color: white;
+                border: none;
+                border-radius: 10px;
+                text-decoration: none;
+            }
+
+            .fireworks {
+                position: relative;
+                display: none;
+            }
+            .fireworks .fire1 {
+                position: absolute;
+                right: 1em;
+                bottom: 45em;
+            }
+            .fireworks .fire2 {
+                position: absolute;
+                right: 5em;
+                bottom: 1em;
+            }
+            .fireworks .fire5 {
+                position: absolute;
+                left: 10em;
+                bottom: 25em;
+            }
+            .fireworks .fire6 {
+                position: absolute;
+                left: 20em;
+                bottom: 25em;
+            }
+            .fireworks .fire7 {
+                position: absolute;
+                left: 30em;
+                bottom: 25em;
+            }
+            .fireworks .fire4 {
+                position: absolute;
+                left: 20em;
+                bottom:40em;
+            }
+        </style>
+        
+    </head>
+    <body>
+        
+        <div class="loading">
+            <img src="img/loading/loadingku.gif" alt="Loading">
+        </div>
+
+        <!-- Navigasi -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <nav class="navbar navbar-light bg-light">
+                    <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo/logo.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                        Steven
+                    </a>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+
+        <!-- Jumbotron -->
+        <section class="jumbotron bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="text-center">Indonesia</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h5 class="text-center">Hal yang terjadi pada tahun 2021 di Indonesia</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Posts -->
+        <section class="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h6 class="kategori"><span>2021</span> | 2020 | 2019 | Sebelumnya |</h6>
+                        <hr class="garis">
+                    </div>
+                </div>
+                <div class="row cardcard">
+                    
+                </div>
+            </div>
+        </section>
+
+        <section class="harapan bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="text-center">Harapan</h3>
+                        <p class="text-center har">Semoga 2022 merupakan tahun yang lebih baik lagi dari tahun yang sebelumnya.</p>
+                        <div class="tombol">
+                            <p class="text-center"><a class="pergantianTahun" href="#home">Ganti tahun?</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="fireworks">
+            <img src="img/fireworksGif/1640934724838.gif" class="fire2">
+            <img src="img/fireworksGif/1640934724861.gif" class="fire4">
+            <img src="img/fireworksGif/1640934724861.gif" class="fire1">
+            <img src="img/fireworksGif/1640934724870.gif" class="fire5">
+            <img src="img/fireworksGif/1640934724870.gif" class="fire6">
+            <img src="img/fireworksGif/1640934724870.gif" class="fire7">
+        </section>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <script>
+            $(window).on('load', () => {
+                setTimeout(() => {
+                    $('.loading').css('display', 'none')
+                }, 2000)
+            })
+
+            $('.pergantianTahun').on('click', () => {
+                $('.fireworks').css('display', 'block')
+                $('.cardcard').html(
+                    `
+                    <div class="col">
+                        <h1 class="text-center">Belum Tersedia Peristiwa</h1>
+                    </div>
+                    `
+                )
+                $('.jumbotron h1').html('Selamat Tahun Baru')
+                $('.jumbotron h5').html('Selamat Datang 2022')
+                $('.harapan h3').html('Selamat Tahun Baru')
+                $('.harapan har').html('Semoga dapat menjadi tahun yang lebih baik.')
+                $('.kategori').html('<span>2022</span> | 2021 | 2020 | Sebelumnya |')
+            })
+
+            $.ajax({
+                url: 'data/peristiwa2021.json',
+                type: 'get',
+                dataType: 'json',
+                success: (hasil) => {
+                    $.each(hasil, (i, data) => {
+                        $('.cardcard').append(`
+                        <div class="col-md-4">
+                            <div class="myCard">
+                                <div class="alertHijau">
+                                    Peristiwa
+                                </div>
+                                <div class="cardBody">
+                                    <h3>${data.judul}</h3>
+                                    <p>${data.peristiwa}</p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        `)
+                    })
+                }
+            })
+
+            
+
+        </script>
+    </body>
+</html>
+
